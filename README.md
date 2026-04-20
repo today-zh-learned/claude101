@@ -1,8 +1,3 @@
----
-layout: default
-title: 홈
----
-
 # Claude Code 플레이북
 
 Claude Code를 처음 쓰는 분을 위한 한국어 **7일 완주 가이드**입니다.
