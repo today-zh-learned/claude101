@@ -1,0 +1,69 @@
+{
+  "updatedAt": "2026-04-20T13:02:04.767Z",
+  "missions": [
+    {
+      "id": "session:b1f9bc7b-51ba-4072-8e8a-a58a95529b98:none",
+      "source": "session",
+      "name": "none",
+      "objective": "Session mission",
+      "createdAt": "2026-04-20T12:52:24.227Z",
+      "updatedAt": "2026-04-20T13:02:04.767Z",
+      "status": "done",
+      "workerCount": 1,
+      "taskCounts": {
+        "total": 1,
+        "pending": 0,
+        "blocked": 0,
+        "inProgress": 0,
+        "completed": 1,
+        "failed": 0
+      },
+      "agents": [
+        {
+          "name": "builder:aac1487",
+          "role": "builder",
+          "ownership": "aac14870f95d00974",
+          "status": "done",
+          "currentStep": null,
+          "latestUpdate": "completed",
+          "completedSummary": null,
+          "updatedAt": "2026-04-20T13:02:04.767Z"
+        }
+      ],
+      "timeline": [
+        {
+          "id": "session-start:aac14870f95d00974:2026-04-20T12:52:24.227Z",
+          "at": "2026-04-20T12:52:24.227Z",
+          "kind": "update",
+          "agent": "builder:aac1487",
+          "detail": "started builder:aac1487",
+          "sourceKey": "session-start:aac14870f95d00974"
+        },
+        {
+          "id": "session-stop:aac14870f95d00974:2026-04-20T12:54:42.319Z",
+          "at": "2026-04-20T12:54:42.319Z",
+          "kind": "completion",
+          "agent": "builder:aac1487",
+          "detail": "completed",
+          "sourceKey": "session-stop:aac14870f95d00974"
+        },
+        {
+          "id": "session-stop:aac14870f95d00974:2026-04-20T12:57:45.331Z",
+          "at": "2026-04-20T12:57:45.331Z",
+          "kind": "completion",
+          "agent": "builder:aac1487",
+          "detail": "completed",
+          "sourceKey": "session-stop:aac14870f95d00974"
+        },
+        {
+          "id": "session-stop:ac735e00547388779:2026-04-20T13:02:04.767Z",
+          "at": "2026-04-20T13:02:04.767Z",
+          "kind": "completion",
+          "agent": "builder:aac1487",
+          "detail": "completed",
+          "sourceKey": "session-stop:ac735e00547388779"
+        }
+      ]
+    }
+  ]
+}

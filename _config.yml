@@ -1,0 +1,17 @@
+title: Claude Code 플레이북
+description: Claude Code를 처음 쓰는 분을 위한 한국어 7일 완주 가이드
+theme: jekyll-theme-cayman
+show_downloads: false
+plugins:
+  - jekyll-relative-links
+relative_links:
+  enabled: true
+  collections: true
+include:
+  - README.md
+  - docs
+exclude:
+  - scripts
+  - node_modules
+  - Gemfile
+  - Gemfile.lock

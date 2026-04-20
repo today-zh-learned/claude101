@@ -1,0 +1,17 @@
+{
+  "agents": [
+    {
+      "agent_id": "aac14870f95d00974",
+      "agent_type": "builder",
+      "started_at": "2026-04-20T12:52:24.227Z",
+      "parent_mode": "none",
+      "status": "completed",
+      "completed_at": "2026-04-20T12:57:45.331Z",
+      "duration_ms": 321104
+    }
+  ],
+  "total_spawned": 1,
+  "total_completed": 2,
+  "total_failed": 0,
+  "last_updated": "2026-04-20T13:02:04.868Z"
+}
