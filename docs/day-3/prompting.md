@@ -127,4 +127,4 @@ AI싱크클럽에서 23개 에이전트를 운영하면서 쌓은 팁입니다.
 
 다음은 Claude의 “기억력”을 이해하는 시간입니다.
 
--> [컨텍스트 관리의 기술](/docs/day-3/context)
+-> [컨텍스트 관리의 기술]({{ '/docs/day-3/context.html' | relative_url }})

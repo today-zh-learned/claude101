@@ -173,4 +173,4 @@ Skills를 잘 쓰는 팀은 이런 패턴을 만듭니다.
 
 다음은 Claude Code를 사람 없이 자동으로 실행하는 방법을 배웁니다.
 
-> [다음: Headless — 사람 없이 실행 →](/docs/day-6/headless)
+> [다음: Headless — 사람 없이 실행 →]({{ '/docs/day-6/headless.html' | relative_url }})

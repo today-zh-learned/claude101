@@ -186,4 +186,4 @@ mkdir -p ~/.claude/commands`
 
 다음은 실수해도 걱정 없는 체크포인트를 배워봅시다.
 
-> [다음: 실수해도 괜찮아 (체크포인트) →](/docs/day-4/checkpoints)
+> [다음: 실수해도 괜찮아 (체크포인트) →]({{ '/docs/day-4/checkpoints.html' | relative_url }})

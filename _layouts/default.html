@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% if page.title %}{{ page.title }} · {% endif %}{{ site.title }}</title>
+  <meta name="description" content="{{ site.description }}">
+  <meta property="og:title" content="{% if page.title %}{{ page.title }} · {% endif %}{{ site.title }}">
+  <meta property="og:description" content="{{ site.description }}">
+  <link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
+  <link rel="stylesheet" href="{{ '/assets/css/toss.css' | relative_url }}">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.9.0/build/styles/atom-one-dark.min.css">
+  <script defer src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.9.0/build/highlight.min.js"></script>
+  <script defer>
+    window.addEventListener('DOMContentLoaded', () => {
+      document.querySelectorAll('pre code').forEach(el => window.hljs && hljs.highlightElement(el));
+      const toggle = document.querySelector('.nav-toggle');
+      toggle && toggle.addEventListener('click', () => document.body.classList.toggle('nav-open'));
+      document.querySelectorAll('.sidebar a').forEach(a => a.addEventListener('click', () => document.body.classList.remove('nav-open')));
+    });
+  </script>
+</head>
+<body>
+  <button class="nav-toggle" aria-label="메뉴 열기">☰</button>
+  <div class="nav-overlay" onclick="document.body.classList.remove('nav-open')"></div>
+
+  <aside class="sidebar">
+    <a class="brand" href="{{ '/' | relative_url }}">
+      <span class="brand-logo" aria-hidden="true">
+        <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M16 4L28 10V22L16 28L4 22V10L16 4Z" fill="#3182F6"/>
+          <path d="M16 4L28 10L16 16L4 10L16 4Z" fill="#6AA5F9"/>
+          <path d="M16 16L28 10V22L16 28V16Z" fill="#1F6FEB"/>
+        </svg>
+      </span>
+      <span class="brand-text">
+        <strong>Claude Code</strong>
+        <em>플레이북</em>
+      </span>
+    </a>
+
+    <div class="brand-sub">
+      <div class="brand-sub-title">7일 완주 가이드</div>
+      <div class="brand-sub-desc">한국어 · 39 챕터</div>
+    </div>
+
+    <nav class="nav">
+      {% for group in site.data.nav %}
+        <div class="nav-group">
+          <div class="nav-title">{{ group.group }}</div>
+          {% for item in group.items %}
+            {% assign item_url = item.url | relative_url %}
+            {% assign current = page.url | replace: '.html','' %}
+            {% assign target = item.url | replace: '.html','' %}
+            {% if current == target %}
+              <a class="nav-item is-active" href="{{ item_url }}">{{ item.title }}</a>
+            {% else %}
+              <a class="nav-item" href="{{ item_url }}">{{ item.title }}</a>
+            {% endif %}
+          {% endfor %}
+        </div>
+      {% endfor %}
+    </nav>
+
+    <div class="sidebar-foot">
+      <a class="gh-link" href="https://github.com/today-zh-learned/claude101" target="_blank" rel="noopener">
+        <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>
+        GitHub
+      </a>
+    </div>
+  </aside>
+
+  <main class="main">
+    {% unless page.url == '/' or page.url == '/index.html' %}
+    <div class="topbar">
+      <a class="back" href="{{ '/' | relative_url }}">← 목록보기</a>
+    </div>
+    {% endunless %}
+
+    <article class="content">
+      {{ content }}
+    </article>
+
+    <footer class="foot">
+      <p>© {{ 'now' | date: '%Y' }} Claude Code 플레이북 · <a href="https://github.com/today-zh-learned/claude101" target="_blank" rel="noopener">GitHub에서 보기</a></p>
+    </footer>
+  </main>
+</body>
+</html>

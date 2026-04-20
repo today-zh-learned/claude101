@@ -218,4 +218,4 @@ CLAUDE.md에 파이프라인이 정의되어 있으므로, Claude Code가 순서
 
 - 에이전트 정의는 역할, 입력, 출력, 규칙을 명확히 하는 것이 핵심입니다
 
-다음: [프로덕션에 배포하기](/docs/day-7/production)
+다음: [프로덕션에 배포하기]({{ '/docs/day-7/production.html' | relative_url }})

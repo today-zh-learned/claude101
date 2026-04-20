@@ -167,4 +167,4 @@ Git을 몰라도 이렇게 말하면 됩니다.
 
 다음은 Claude가 물어보는 권한이 뭔지 알아봅시다.
 
--> [권한 설정 이해하기](/docs/day-2/permissions)
+-> [권한 설정 이해하기]({{ '/docs/day-2/permissions.html' | relative_url }})

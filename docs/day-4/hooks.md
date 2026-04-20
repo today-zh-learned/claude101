@@ -191,4 +191,4 @@ Claude가 파일을 수정하려 할 때마다 이 스크립트가 실행되고,
 
 다음은 자주 하는 작업을 슬래시 커맨드로 만들어봅시다.
 
-> [다음: 나만의 명령어 만들기 →](/docs/day-4/custom-commands)
+> [다음: 나만의 명령어 만들기 →]({{ '/docs/day-4/custom-commands.html' | relative_url }})

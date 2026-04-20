@@ -177,4 +177,4 @@ Claude는 이걸 읽고도 거의 아무것도 모릅니다. React 버전이 뭔
 
 다음은 Git으로 안전하게 코드를 관리하는 법을 배웁니다.
 
--> [Git으로 협업하기](/docs/day-2/git-workflow)
+-> [Git으로 협업하기]({{ '/docs/day-2/git-workflow.html' | relative_url }})

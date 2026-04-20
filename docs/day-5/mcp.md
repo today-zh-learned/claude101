@@ -188,4 +188,4 @@ MCP의 진짜 힘은 **여러 도구를 동시에 연결**할 때 나옵니다.
 
 다음은 상황에 맞게 AI 모델을 골라 쓰는 법을 배웁니다.
 
--> [모델 골라 쓰기](/docs/day-5/multi-model)
+-> [모델 골라 쓰기]({{ '/docs/day-5/multi-model.html' | relative_url }})

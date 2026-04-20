@@ -165,4 +165,4 @@ claude "CLAUDE.md에 '변수명은 camelCase, 함수명은 동사로 시작' 규
 
 다음은 현실적인 질문, “비용”에 대한 이야기입니다.
 
--> [비용, 얼마나 드나요?](/docs/day-3/cost)
+-> [비용, 얼마나 드나요?]({{ '/docs/day-3/cost.html' | relative_url }})

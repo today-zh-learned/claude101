@@ -191,4 +191,4 @@ Claude Code를 실행하고 아래 명령어를 하나씩 입력해보세요:
 
 이제 기본은 됐습니다. Day 2에서는 **실제 프로젝트에 Claude Code를 적용**해봅니다. “연습”이 아니라 “실전”입니다.
 
-> [Day 2로 넘어가기 →](/docs/day-2)
+> [Day 2로 넘어가기 →]({{ '/docs/day-2.html' | relative_url }})

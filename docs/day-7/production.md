@@ -250,4 +250,4 @@ jobs:
 
 - 실패는 “언제”의 문제이므로, 실패 대응 전략을 미리 준비합니다
 
-다음: [팀으로 함께 쓰기](/docs/day-7/team-work)
+다음: [팀으로 함께 쓰기]({{ '/docs/day-7/team-work.html' | relative_url }})

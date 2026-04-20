@@ -43,4 +43,4 @@ Day 7  실전 프로젝트    "실제 시스템을 완성합니다"`
 
 준비되셨나요?
 
-→ [Day 0 — 준비하기](/docs/day-0/what-is-claude-code)
+→ [Day 0 — 준비하기]({{ '/docs/day-0/what-is-claude-code.html' | relative_url }})

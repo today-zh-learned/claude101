@@ -179,4 +179,4 @@ analyzeProject(targetDir);`
 
 다음은 하나의 Claude가 다른 Claude를 부리는 서브에이전트 패턴을 배웁니다.
 
-> [다음: 서브에이전트 패턴 →](/docs/day-6/subagents)
+> [다음: 서브에이전트 패턴 →]({{ '/docs/day-6/subagents.html' | relative_url }})

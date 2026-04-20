@@ -184,4 +184,4 @@ async function parallelWork() {
 
 다음은 이 모든 것을 안전하게 실행하는 Docker 환경을 배웁니다.
 
-> [다음: Docker로 안전하게 →](/docs/day-6/docker)
+> [다음: Docker로 안전하게 →]({{ '/docs/day-6/docker.html' | relative_url }})

@@ -200,4 +200,4 @@ Claude Code는 기본적으로 위험한 시스템 명령어를 실행하지 않
 
 다음은 여러 파일을 한번에 다루는 법을 배웁니다.
 
--> [여러 파일 한번에 다루기](/docs/day-2/multi-file)
+-> [여러 파일 한번에 다루기]({{ '/docs/day-2/multi-file.html' | relative_url }})

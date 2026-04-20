@@ -157,4 +157,4 @@ Python 파일도 실행해볼 수 있습니다:
 
 파일을 다루는 게 이렇게 간단합니다. 다음으로 자주 쓰는 명령 패턴을 익혀봅시다.
 
-> [다음: 자주 쓰는 명령어 →](/docs/day-1/basic-commands)
+> [다음: 자주 쓰는 명령어 →]({{ '/docs/day-1/basic-commands.html' | relative_url }})

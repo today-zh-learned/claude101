@@ -167,4 +167,4 @@ npm으로 새로 설치하려면 Node.js 18 이상이 필요합니다:
 
 설치가 되었으면, 다음은 API 키를 발급받을 차례입니다.
 
--> [API 키 발급](/docs/day-0/api-key)
+-> [API 키 발급]({{ '/docs/day-0/api-key.html' | relative_url }})

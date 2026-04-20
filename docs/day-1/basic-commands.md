@@ -138,4 +138,4 @@ PR(Pull Request)은 “이렇게 바꿨는데 확인해주세요”라는 요청
 
 이 다섯 가지면 Claude Code로 할 수 있는 일의 90%를 커버합니다. 다음으로 슬래시 커맨드를 배워서 더 빠르게 조작하는 법을 익혀봅시다.
 
-> [다음: 슬래시 커맨드 익히기 →](/docs/day-1/slash-commands)
+> [다음: 슬래시 커맨드 익히기 →]({{ '/docs/day-1/slash-commands.html' | relative_url }})

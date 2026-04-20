@@ -173,4 +173,4 @@ v3: + trend-collector, keyword-researcher
 
 - 중요한 결정 포인트에는 반드시 사람의 판단이 들어갈 자리를 남겨야 합니다
 
-다음: [멀티에이전트 아키텍처](/docs/day-7/multi-agent)
+다음: [멀티에이전트 아키텍처]({{ '/docs/day-7/multi-agent.html' | relative_url }})

@@ -1,0 +1,109 @@
+- group: 시작
+  items:
+    - title: 🏠 홈
+      url: /
+    - title: 👋 시작하기 전에
+      url: /docs/intro.html
+
+- group: Day 0 — 기반 구축
+  items:
+    - title: Claude Code가 뭔가요?
+      url: /docs/day-0/what-is-claude-code.html
+    - title: 설치하기
+      url: /docs/day-0/installation.html
+    - title: 인증 설정
+      url: /docs/day-0/api-key.html
+    - title: IDE 연동 (선택)
+      url: /docs/day-0/ide-setup.html
+
+- group: Day 1 — 핵심 조작법
+  items:
+    - title: 첫 번째 대화 나누기
+      url: /docs/day-1/first-conversation.html
+    - title: 파일 읽고 쓰기
+      url: /docs/day-1/reading-and-writing.html
+    - title: 자주 쓰는 명령어
+      url: /docs/day-1/basic-commands.html
+    - title: 슬래시 커맨드 익히기
+      url: /docs/day-1/slash-commands.html
+
+- group: Day 2 — 프로젝트 통합
+  items:
+    - title: CLAUDE.md 만들기
+      url: /docs/day-2/claude-md.html
+    - title: Git으로 협업하기
+      url: /docs/day-2/git-workflow.html
+    - title: 권한 설정 이해하기
+      url: /docs/day-2/permissions.html
+    - title: 여러 파일 한번에 다루기
+      url: /docs/day-2/multi-file.html
+
+- group: Day 3 — 효율 극대화
+  items:
+    - title: 프롬프트 잘 쓰는 법
+      url: /docs/day-3/prompting.html
+    - title: 컨텍스트 관리의 기술
+      url: /docs/day-3/context.html
+    - title: 기억력 키워주기 (메모리)
+      url: /docs/day-3/memory.html
+    - title: 비용, 얼마나 드나요?
+      url: /docs/day-3/cost.html
+
+- group: Day 4 — 자동화 체계
+  items:
+    - title: Hooks — 자동 반응 만들기
+      url: /docs/day-4/hooks.html
+    - title: 나만의 명령어 만들기
+      url: /docs/day-4/custom-commands.html
+    - title: 실수해도 괜찮아 (체크포인트)
+      url: /docs/day-4/checkpoints.html
+    - title: 테스트 자동화
+      url: /docs/day-4/testing.html
+
+- group: Day 5 — 외부 연결
+  items:
+    - title: MCP — 외부 도구 연결하기
+      url: /docs/day-5/mcp.html
+    - title: 모델 골라 쓰기
+      url: /docs/day-5/multi-model.html
+    - title: Desktop App 활용
+      url: /docs/day-5/desktop-app.html
+    - title: 웹에서도 쓸 수 있어요
+      url: /docs/day-5/web-and-remote.html
+
+- group: Day 6 — 에이전트 설계
+  items:
+    - title: Skills — AI에게 전문성 부여
+      url: /docs/day-6/skills.html
+    - title: Headless — 사람 없이 실행
+      url: /docs/day-6/headless.html
+    - title: Agent SDK — 코드로 제어
+      url: /docs/day-6/agent-sdk.html
+    - title: 서브에이전트 패턴
+      url: /docs/day-6/subagents.html
+    - title: Docker로 안전하게
+      url: /docs/day-6/docker.html
+
+- group: Day 7 — 실전 운영
+  items:
+    - title: 실전 사례 — 콘텐츠 자동화
+      url: /docs/day-7/real-system.html
+    - title: 멀티에이전트 아키텍처
+      url: /docs/day-7/multi-agent.html
+    - title: 프로덕션에 배포하기
+      url: /docs/day-7/production.html
+    - title: 팀으로 함께 쓰기
+      url: /docs/day-7/team-work.html
+
+- group: 부록
+  items:
+    - title: 치트시트
+      url: /docs/reference/cheatsheet.html
+    - title: 프롬프트 레시피
+      url: /docs/reference/prompt-cookbook.html
+    - title: 문제 해결
+      url: /docs/reference/troubleshooting.html
+    - title: 자주 묻는 질문
+      url: /docs/reference/faq.html
+    - title: 용어집
+      url: /docs/reference/glossary.html

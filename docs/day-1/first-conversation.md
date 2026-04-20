@@ -149,4 +149,4 @@ Claude가 직접 확인해보고 답해줍니다. 이때 터미널 명령어를 
 
 다음으로 파일을 직접 읽고 쓰는 법을 배워봅시다.
 
-> [다음: 파일 읽고 쓰기 →](/docs/day-1/reading-and-writing)
+> [다음: 파일 읽고 쓰기 →]({{ '/docs/day-1/reading-and-writing.html' | relative_url }})

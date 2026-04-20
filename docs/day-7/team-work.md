@@ -248,4 +248,4 @@ MCP (Day 4)
 
 - 7일 과정의 모든 내용은 서로 연결되어 있으며, CLAUDE.md가 그 출발점입니다
 
-다음: [레퍼런스](/docs/reference)
+다음: [레퍼런스]({{ '/docs/reference.html' | relative_url }})

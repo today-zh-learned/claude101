@@ -21,7 +21,7 @@ title: "Claude Code가 뭔가요?"
 > - **Anthropic API 키** — 사용한 만큼만 과금 (개발자용, $5 충전이면 이 플레이북을 충분히 따라할 수 있습니다)
 > 
 > 
-> Day 0의 [API 키 설정](/docs/day-0/api-key) 페이지에서 자세히 다룹니다. 지금은 “유료구나” 정도만 알고 넘어가세요.
+> Day 0의 [API 키 설정]({{ '/docs/day-0/api-key.html' | relative_url }}) 페이지에서 자세히 다룹니다. 지금은 “유료구나” 정도만 알고 넘어가세요.
 
 ---
 
@@ -156,4 +156,4 @@ AI싱크클럽에서는 Claude Code로 **23개 AI 에이전트**를 만들어서
 
 다음 페이지에서 실제로 설치해봅시다.
 
--> [설치하기](/docs/day-0/installation)
+-> [설치하기]({{ '/docs/day-0/installation.html' | relative_url }})
